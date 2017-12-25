@@ -26,7 +26,7 @@ module.exports = function(context) {
         projectConfigurationFile = path.join(context.opts.projectRoot,
             'config.xml'),
         platformConfigurationFile = path.join(androidPlatformDir,
-            'res', 'xml', 'config.xml'),
+            'app','src','main','res', 'xml', 'config.xml'),
         projectManifestFile = path.join(androidPlatformDir,
             'AndroidManifest.xml'),
         xwalk64bit = "xwalk64bit",
